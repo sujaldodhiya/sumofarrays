@@ -13,7 +13,7 @@ class SumOfTwoArrays
         
         int c[] = new int[n];
 
-        for(int i=0;i<=n;i++)
+        for(int i=0;i<n;i++)
         {
             System.out.println("Enter element for a at "+i+" : ");
             a[i] = Integer.parseInt(br.readLine());
